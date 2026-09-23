@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-learning-cn"
+version = "0.1.0"
+description = "面向 Agent 工程实践的中文教材与离线实操"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.optional-dependencies]
+runtime = [
+  "anthropic==1.8.0",
+  "langgraph==1.2.12",
+  "langsmith==0.14.0",
+]
+test = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+testpaths = ["实操"]
+python_files = ["test_*.py"]
+pythonpath = ["实操"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
