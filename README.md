@@ -143,4 +143,4 @@ python -m compileall -q 实操
 
 ## 与 Knowabit 的关系
 
-课程仓库负责教材、实例、测试和 Release；Knowabit 负责公开的 Project 介绍、学习路线和入口。网站不承载 API key、课程运行时数据或生产日志。当前本地预览入口为 `/projects/agent-learning`；GitHub 公开仓库地址在远程仓库创建并验证后再写入页面。
+课程仓库负责教材、实例、测试和 Release；Knowabit Lab 负责公开的实验介绍、学习路线和入口。网站不承载 API key、课程运行时数据或生产日志。线上实验入口为 `/lab/agent-learning`，兼容保留 `/projects/agent-learning`。

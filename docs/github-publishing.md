@@ -27,7 +27,7 @@ gh release create v0.1.0 --title "Agent Learning v0.1.0" --notes-file CHANGELOG.
 
 ## 发布后要回填 Knowabit
 
-只有仓库 URL、默认分支和 GitHub Actions 首次运行都验证成功后，才把固定链接加入 `/projects/agent-learning`：
+仓库 URL、默认分支和 GitHub Actions 首次运行已经验证成功。固定链接应放在 Knowabit Lab 的 `/lab/agent-learning` 页面，而不是把实验伪装成 Projects 中的成熟产品：
 
 ```text
 https://github.com/zhangmsh20/agent-learning
