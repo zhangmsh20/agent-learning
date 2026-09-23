@@ -14,3 +14,4 @@ coverage.xml
 *.log
 outputs/
 !outputs/.gitkeep
+归档/
