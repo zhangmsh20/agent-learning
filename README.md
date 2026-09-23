@@ -128,6 +128,7 @@ python -m compileall -q 实操
 
 - `docs/syllabus.md`：课程地图与每阶段完成证据
 - `docs/release-checklist.md`：发布、CI 和 Knowabit 展示前检查清单
+- `docs/github-publishing.md`：创建远程仓库、验证 CI 和发布 Release 的步骤
 - `CHANGELOG.md`：版本变化
 
 ## 内容更新原则
