@@ -144,3 +144,5 @@ python -m compileall -q 实操
 ## 与 Knowabit 的关系
 
 课程仓库负责教材、实例、测试和 Release；Knowabit Lab 负责公开的实验介绍、学习路线和入口。网站不承载 API key、课程运行时数据或生产日志。线上实验入口为 `/lab/agent-learning`，兼容保留 `/projects/agent-learning`。
+
+主教材在线阅读版：<https://knowabit.cn/lab/agent-learning/textbook>。阅读页同步展示本仓库的主教材原文，GitHub 仍是版本和 Release 的权威来源。
